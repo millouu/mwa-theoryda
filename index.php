@@ -431,7 +431,7 @@
                         $user->first_name = $firstName;
                         $user->last_name = $lastName;
                         $user->username = $username;
-                        $userArray[] = $user;
+                        array_push($userArray,$user);
                     }
 
                     // Check if the "Delete All" button has been clicked
